@@ -4,7 +4,7 @@
 from unittest import TestCase
 from mock import patch
 import sys
-sys.path.append("/Users/diyu/git_project/jenkinsleanring")
+sys.path.append("/Users/diyu/git_project/jenkinslearning")
 import project1.authentication as auth
 
 class StandAloneTests(TestCase):
