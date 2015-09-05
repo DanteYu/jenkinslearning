@@ -1,0 +1,146 @@
+************* Module project1.authentication
+authentication.py:5: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+authentication.py:6: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+authentication.py:7: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+authentication.py:8: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+authentication.py:9: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+authentication.py:10: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+authentication.py:11: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+authentication.py:12: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+authentication.py:13: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+authentication.py:14: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+authentication.py:15: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+authentication.py:18: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+authentication.py:19: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+authentication.py:4: [C0111(missing-docstring), login] Missing function docstring
+authentication.py:13: [W0702(bare-except), login] No exception type(s) specified
+authentication.py:17: [C0111(missing-docstring), logout] Missing function docstring
+************* Module project1.tests.authentication_tests
+tests/authentication_tests.py:11: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+tests/authentication_tests.py:13: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+tests/authentication_tests.py:14: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+tests/authentication_tests.py:15: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+tests/authentication_tests.py:16: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+tests/authentication_tests.py:17: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+tests/authentication_tests.py:19: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+tests/authentication_tests.py:20: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+tests/authentication_tests.py:21: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+tests/authentication_tests.py:22: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+tests/authentication_tests.py:23: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+tests/authentication_tests.py:25: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+tests/authentication_tests.py:26: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+tests/authentication_tests.py:27: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+tests/authentication_tests.py:28: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+tests/authentication_tests.py:29: [W0312(mixed-indentation), ] Found indentation with tabs instead of spaces
+
+
+Report
+======
+30 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |4      |4          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |1      |1          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |3      |3          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |2      |2          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    mock (project1.tests.authentication_tests)
+    project1 
+      \-authentication (project1.tests.authentication_tests)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |34     |72.34 |34       |=          |
++----------+-------+------+---------+-----------+
+|docstring |7      |14.89 |7        |=          |
++----------+-------+------+---------+-----------+
+|comment   |2      |4.26  |2        |=          |
++----------+-------+------+---------+-----------+
+|empty     |4      |8.51  |4        |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |2      |2        |=          |
++-----------+-------+---------+-----------+
+|refactor   |0      |0        |=          |
++-----------+-------+---------+-----------+
+|warning    |30     |30       |=          |
++-----------+-------+---------+-----------+
+|error      |0      |0        |=          |
++-----------+-------+---------+-----------+
+
+
+
+% errors / warnings by module
+-----------------------------
+
++------------------------------------+------+--------+---------+-----------+
+|module                              |error |warning |refactor |convention |
++====================================+======+========+=========+===========+
+|project1.tests.authentication_tests |0.00  |53.33   |0.00     |0.00       |
++------------------------------------+------+--------+---------+-----------+
+|project1.authentication             |0.00  |46.67   |0.00     |100.00     |
++------------------------------------+------+--------+---------+-----------+
+
+
+
+Messages
+--------
+
++------------------+------------+
+|message id        |occurrences |
++==================+============+
+|mixed-indentation |29          |
++------------------+------------+
+|missing-docstring |2           |
++------------------+------------+
+|bare-except       |1           |
++------------------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at -0.67/10 (previous run: -0.67/10, +0.00)
+
