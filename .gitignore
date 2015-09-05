@@ -2,3 +2,4 @@
 .coverage
 .git
 *.out
+*.xml
